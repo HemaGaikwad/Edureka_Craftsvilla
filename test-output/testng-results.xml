@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (8fe239512e89631ebcb3228acbd74683)] -> xpath: //a[text()='ACCESSORIES ']] element found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (8fe239512e89631ebcb3228acbd74683)] -> link text: Kundan Jewellery] element found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (8fe239512e89631ebcb3228acbd74683)] -> xpath: //img[@src='https://img3.craftsvilla.com/image/upload/w_300,h_450,c_lfill,f_auto/C/V/CV-MENTE15607293360--ENTERCARTS-Craftsvilla_1.jpg-1517113472']] element found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (8fe239512e89631ebcb3228acbd74683)] -> id: buynow] element found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (8fe239512e89631ebcb3228acbd74683)] -> id: address-email] element found]]>
+    </line>
+  </reporter-output>
+  <suite name="CraftsVilla" duration-ms="30300" started-at="2018-06-13T16:25:09Z" finished-at="2018-06-13T16:25:40Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="30300" started-at="2018-06-13T16:25:09Z" finished-at="2018-06-13T16:25:40Z">
+      <class name="com.craftsvilla.testscripts.KundanJewelleryScripts">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.craftsvilla.testscripts.KundanJewelleryScripts@5faeada1]" name="OpenApp" is-config="true" duration-ms="9710" started-at="2018-06-13T16:25:09Z" finished-at="2018-06-13T16:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="FAIL" signature="TC_01_BuyKundanPendant()[pri:0, instance:com.craftsvilla.testscripts.KundanJewelleryScripts@5faeada1]" name="TC_01_BuyKundanPendant" duration-ms="19941" started-at="2018-06-13T16:25:19Z" finished-at="2018-06-13T16:25:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.craftsvilla.testscripts.KundanJewelleryScripts.TC_01_BuyKundanPendant(KundanJewelleryScripts.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (8fe239512e89631ebcb3228acbd74683)] -> xpath: //a[text()='ACCESSORIES ']] element found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (8fe239512e89631ebcb3228acbd74683)] -> link text: Kundan Jewellery] element found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (8fe239512e89631ebcb3228acbd74683)] -> xpath: //img[@src='https://img3.craftsvilla.com/image/upload/w_300,h_450,c_lfill,f_auto/C/V/CV-MENTE15607293360--ENTERCARTS-Craftsvilla_1.jpg-1517113472']] element found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (8fe239512e89631ebcb3228acbd74683)] -> id: buynow] element found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (8fe239512e89631ebcb3228acbd74683)] -> id: address-email] element found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_BuyKundanPendant -->
+      </class> <!-- com.craftsvilla.testscripts.KundanJewelleryScripts -->
+    </test> <!-- Regression -->
+  </suite> <!-- CraftsVilla -->
+</testng-results>
