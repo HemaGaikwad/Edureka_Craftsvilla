@@ -7,4 +7,5 @@ public interface AutoConst
 	String gecko_key = "webdriver.gecko.driver";
 	String gecko_value = ".\\Drivers\\geckodriver.exe";
 	String filePath = ".\\InputData\\Credentials.xlsx";
+	//autoconst
 }
